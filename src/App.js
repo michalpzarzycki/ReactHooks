@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Timer from './Timer'
 import './App.css';
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
       <button onClick={() => setValue(value + 1)}>
         Kliknij mnie
       </button>
+      <div>
+        Timer
+        <Timer />
+      </div>
     </div>
   );
 }
